@@ -1,0 +1,77 @@
+
+.lightbox{
+    width: 1200px;
+    margin: 0 auto;
+}
+.lightbox figure {
+    cursor: pointer;
+    width: 300px;
+    height: 260px;
+    display: inline-block;
+    position: relative;
+}
+.lightbox figure>img{
+    width: 300px;
+    height: 250px;
+
+}
+
+.lightbox figure figcaption {
+    font-size: 1.25em;
+    color: #fff;
+    margin: auto;
+    width: 80px;
+    height: 30px;
+    padding: 5px 10px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border: 5px solid transparent;
+    transition: all 0.3s;
+}
+.lightbox figure:hover  figcaption{
+    border: 5px solid white;
+    transition: all 0.3s;
+}
+.zhezhao{
+    width: 1349px;
+    height: 640px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    background-color: rgb(205, 205, 205);
+}
+.zhezhao > img{
+    width: 700px;
+    height: 500px;
+    margin: 100px 0  0 300px ;
+}
+#lightBoxClose{
+    position: absolute;
+    right: 360px;
+    top: 110px;
+}
+#lightBoxNext{
+    position: absolute;
+    right: 345px;
+    top: 360px;
+}
+#lightBoxPrev{
+    position: absolute;
+    left: 300px;
+    top: 360px;
+}
+.lightBoxPage{
+    color: #fff;
+    font-size: 1.5em;
+    position: absolute;
+    right: 360px;
+    top: 550px;
+}
+
+
+
+
